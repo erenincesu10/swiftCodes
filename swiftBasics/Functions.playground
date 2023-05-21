@@ -1,0 +1,27 @@
+import UIKit
+
+func myFunction(){
+    print("my function")
+}
+
+//calling the function
+myFunction()
+
+//Input Output Return
+
+func sumFuction(x : Int, y : Int) -> Int {
+    return x + y
+}
+
+var a = sumFuction(x: 10, y: 20)
+print(a)
+
+func logicFunction(a: Int,b : Int) -> Bool {
+    if a<b {
+        return true
+    } else {
+        return false
+    }
+}
+
+logicFunction(a: 4, b: 3)
