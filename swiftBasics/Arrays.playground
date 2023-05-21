@@ -1,0 +1,59 @@
+import UIKit
+
+
+var myFavoriteMovies = ["NFS 10","Scarface","Scream",5,true] as [Any]
+
+
+//Array
+//as -> casting
+
+//index
+myFavoriteMovies[0]
+myFavoriteMovies[1]
+myFavoriteMovies[2]
+myFavoriteMovies[3]
+myFavoriteMovies[4]
+
+var myStringArray = ["Test1","Test2","Test3"]
+
+myStringArray[0].uppercased()
+
+//array length
+myStringArray.count
+
+//brings the last element
+myStringArray.last
+
+//sorting
+myStringArray.sort()
+
+var myNumberArray = [1,2,3,4,5]
+myNumberArray.append(8)
+
+//Set
+//Unordered collection, unique elements
+var mySet : Set = [1,2,3,4,5,1,2]
+
+var myStringSet : Set = ["a","b","c","a"]
+
+var myInternetArray = [1,2,3,1,2,5,6,2,1]
+var myInternetSet = Set(myInternetArray)
+
+var mySet1 : Set = [1,2,3]
+var mySet2 : Set = [3,4,5]
+
+var mySet3 = mySet1.union(mySet2)
+
+//Dictionary
+//key - value pairing
+
+var myFavouriteCars = ["BMW" : "M8","Nissan" : "GTR"]
+
+myFavouriteCars["BMW"]
+myFavouriteCars["BMW"] = "M4"
+
+//adding new item
+myFavouriteCars["Mercedes"] = "E300 Coupe"
+print(myFavouriteCars)
+
+var myDictionary = ["banana" : 100,"apple" : 53,"chocalate" : 217]
