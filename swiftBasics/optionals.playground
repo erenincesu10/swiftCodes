@@ -1,0 +1,23 @@
+import UIKit
+
+var myName : String?
+
+
+//may be nil may be not
+//myName?.uppercased()
+
+//absoluetly it will have a value
+//myName!.uppercased()
+
+myName?.uppercased()
+
+var myAge = "banana"
+
+var myInteger = (Int(myAge) ?? 0) * 5
+
+//same with ??
+if let myNumber = Int(myAge) {
+    print(myNumber * 5)
+}else{
+    print("wrong input")
+}
