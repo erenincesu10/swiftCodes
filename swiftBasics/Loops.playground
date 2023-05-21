@@ -1,0 +1,44 @@
+import UIKit
+
+//Loops tutorial
+
+var myNumber = 1
+
+myNumber = myNumber + 1
+
+myNumber += 1
+
+//While loop
+
+var number = 0
+
+while number <= 15 {
+    //print(number)
+    number += 1
+}
+
+var characterAlive = true
+
+while characterAlive == true {
+    //print("character alive")
+    characterAlive = false
+}
+
+//For loop
+
+var myColors = ["Blue","Red","Green"]
+
+for color in myColors {
+    print(color)
+}
+
+var myNumbers = [10,20,30,40,50]
+
+for i in myNumbers {
+    print(i/5)
+}
+
+//includes 5
+for k in 1 ... 5 {
+    print(k)
+}
